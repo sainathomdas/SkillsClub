@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MyEnrollmentsClickActivityLayout"
+    tools:context=".MyEnrollmentsClickActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/myEnrollmentsClickImage"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_margin="10sp"
+                android:scaleType="fitXY"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:id="@+id/myEnrollmentsClickTitle"
+                    android:layout_width="0sp"
+                    android:layout_weight="60"
+                    android:layout_height="wrap_content"
+                    android:textColor="#040e3d"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:text="Sainath"
+                    android:layout_margin="8sp"
+                    android:padding="4sp"
+                    android:background="#f9f2e5"/>
+                <TextView
+                    android:id="@+id/myEnrollmentsClickDate"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:textSize="20sp"
+                    android:text="on :"
+                    android:background="#f9f2e5"
+                    android:padding="4sp"
+                    android:textColor="#000"
+                    android:layout_margin = "8sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/myEnrollmentsClickDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#040e3d"
+                android:textSize="20sp"
+                android:text="Sainath"
+                android:layout_marginLeft="8sp"
+                android:layout_marginRight="8sp"
+                android:background="#edeae2"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/myEnrollmentsClickEnrolledStudentsBtn"
+            android:width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8sp"
+            android:layout_row="1"
+            android:background="@color/colorPrimary"
+            android:text="Enrolled Students"
+            android:textColor="#fff"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/disEnrollBtn"
+            android:width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8sp"
+            android:background="@color/colorPrimary"
+            android:text="Disenroll"
+            android:textColor="#fff" />
+    </GridLayout>
+
+
+
+</RelativeLayout>

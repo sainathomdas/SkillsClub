@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addPostActivityLayout"
+    tools:context=".AddPostActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/addPostImage"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="250sp"
+        android:padding="8sp"
+        android:layout_margin="4sp"
+        android:background="@drawable/add_btn"
+        />
+
+        <EditText
+        android:id="@+id/addPostTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter title"
+        android:background="@drawable/border"
+        android:padding="10sp"
+        android:layout_margin="8sp"
+            android:maxLines="1"
+            android:inputType="textAutoCorrect"/>
+
+        <EditText
+            android:id="@+id/addPostDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:background="@drawable/border"
+            android:hint="Enter description"
+            android:padding="10sp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/addPostDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:background="@drawable/border"
+            android:hint="Enter date(dd/mm/yyyy)"
+            android:padding="10sp"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addPostUploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:background="@color/colorPrimary"
+        android:padding="8sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8sp"/>
+
+
+</RelativeLayout>

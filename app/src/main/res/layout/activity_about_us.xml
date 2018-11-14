@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="20sp"
+                android:background="#fff"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/agilogo"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:padding="4sp"
+                android:text="Skills Club members :"
+                android:textColor="#151313"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="35"
+                    android:padding="4sp"
+                    android:text="President :"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="65"
+                    android:padding="4sp"
+                    android:text="N.Vasavi Sai(CSE-3B)"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="45"
+                    android:padding="4sp"
+                    android:text="Vice-President :"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="65"
+                    android:padding="4sp"
+                    android:text="VP name"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="35"
+                    android:padding="4sp"
+                    android:text="Secretary :"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="65"
+                    android:padding="4sp"
+                    android:text="Secretary name"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="35"
+                    android:padding="4sp"
+                    android:text="Post :"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="65"
+                    android:padding="4sp"
+                    android:text="Member name"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="35"
+                    android:padding="4sp"
+                    android:text="Post :"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="65"
+                    android:padding="4sp"
+                    android:text="Member name"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="35"
+                    android:padding="4sp"
+                    android:text="Faculty :"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_weight="65"
+                    android:padding="4sp"
+                    android:text="Swapna(CSE)"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:padding="4sp"
+                android:text="App Developed by Sainath(CSE-3B)"
+                android:textColor="#151313"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

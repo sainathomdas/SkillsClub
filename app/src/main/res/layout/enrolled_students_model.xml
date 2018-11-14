@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4sp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/studentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#e83b3939"
+            android:layout_margin="4sp"
+            android:minWidth="30sp"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/studName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="studName"
+                android:textColor="#e83b3939"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/studHtNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e83b3939"
+                android:layout_marginLeft="8sp"
+                android:background="#fff"
+                android:text="studHtNo"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:layout_weight="50"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/studBranch"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="studBranch"
+                android:textColor="#e83b3939"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/studSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8sp"
+                android:textColor="#e83b3939"
+                android:background="#fff"
+                android:text="studSection"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

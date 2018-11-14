@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SkillsClub</string>
+    <string name="title_activity_main">SkillsClub</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="serverkey">AAAAs3F_UU8:APA91bEtgq7B8_AqZU6w-6RdcX8e301BiFQAKdG6XToT_XarPa3RBlHZrDwPV3SIOumcTbITf086IRyw1rfzKvgMIVfHSCUEGT2EvHcp4-U_9cgIydcDWzAbsue7z2pVfPwRvSR79-fHEdQmn-bY8joe9jPgU9mzZA</string>
+    <string name="fcmtoken">fYNLGt8_nts:APA91bGfEon223L0WQ2M0FoupLiQn9XJ27KiSlHcBdRjhIl6SOezO5KaC6JSEI8H26mHosH7VN4zou5jhkDavzc6mL1W36Fh9BgDYynbwwzG-_aHuKrCsJmyxhdeXf9muHQurxb5kO6x</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detailsActivityLayout"
+    tools:context=".DetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:columnCount="2">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:text="Name"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_columnWeight="2"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:hint="Enter Name"
+                    android:padding="10sp"
+                    android:background="@drawable/border"
+                    android:inputType="textAutoCorrect"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:text="Ht No."
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+
+
+                <EditText
+                    android:id="@+id/htno"
+                    android:layout_columnWeight="2"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:hint="Enter full Ht No."
+                    android:inputType="textAutoCorrect"
+                    android:padding="10sp"
+                    android:background="@drawable/border"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_height="28dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:text="Branch"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+
+
+                <Spinner
+                    android:id="@+id/branch"
+                    android:layout_columnWeight="1.5"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:hint="Enter Ht No."
+
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+                    android:text="Section"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+
+
+                <Spinner
+                    android:id="@+id/section"
+                    android:layout_columnWeight="1.5"
+                    android:layout_margin="8sp"
+                    android:width="0dp"
+
+                    android:hint="Enter Ht No."
+                    android:textSize="20sp"
+                    />
+
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll"
+        android:layout_margin="10sp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:elevation="10sp"
+        />
+
+
+</RelativeLayout>

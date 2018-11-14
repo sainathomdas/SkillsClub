@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="#ffecca"
+android:layout_height="match_parent"
+tools:context=".AdminAndStudentLoginActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/skillsclub"
+            android:scaleType="fitXY"
+            android:layout_margin="8sp"
+
+            />
+
+        <Button
+            android:id="@+id/studentLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="8sp"
+            android:padding="8sp"
+
+            android:text="Login as Student"/>
+
+        <Button
+            android:id="@+id/adminLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="8sp"
+            android:padding="8sp"
+            android:text="Login as Admin"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+</RelativeLayout>

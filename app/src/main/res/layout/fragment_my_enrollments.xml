@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myEnrollmentsLayout"
+    tools:context=".MyEnrollmentsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/rollNumber"
+                android:layout_width="0sp"
+                android:layout_height="50sp"
+                android:layout_weight="70"
+                android:hint="Enter roll number"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:inputType="textAutoCorrect"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/check"
+                android:layout_width="0sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="8sp"
+                android:layout_weight="30"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="4sp"
+                android:text="Check"
+                android:elevation="10sp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/longPressDeleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginRight="8sp"
+            android:text="Long press to cancel your registration"
+            android:layout_gravity="bottom"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/fragMyEnrollSwipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/myEnrollmentsListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp">
+
+        </ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+</FrameLayout>

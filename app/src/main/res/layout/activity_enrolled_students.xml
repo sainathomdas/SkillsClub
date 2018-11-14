@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/enrolledStudentsLayout"
+    tools:context=".EnrolledStudentsActivity">
+
+    <!--
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/enrollmentsRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+  -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enrolled students :"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:padding="4sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginBottom="4sp"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginTop="4sp"
+            android:paddingLeft="8sp">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="#ffecca"
+android:layout_height="match_parent"
+tools:context=".AdminLoginActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/skillsclub"
+            android:scaleType="fitXY"
+            android:layout_margin="8sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:padding="4sp"
+            android:text="Username : "
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/userNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="4sp"
+            android:layout_marginBottom="4sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:padding="8sp"
+            android:inputType="textEmailAddress|textAutoCorrect"
+
+            android:hint="Enter Username"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:padding="4sp"
+            android:text="Password : "
+            android:textColor="#000"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="4sp"
+            android:layout_marginBottom="4sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:inputType="textPassword"
+            android:padding="8sp"
+            android:hint="Enter Password"/>
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="8sp"
+            android:layout_marginTop="10sp"
+            android:padding="8sp"
+            android:text="Login"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>
